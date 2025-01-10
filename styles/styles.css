@@ -293,3 +293,93 @@
     background-color: rgba(255, 255, 255, 1);
     margin-bottom: 24px;
 }
+
+
+/* donation box styles */
+#donation-box{
+    max-width: 1350px;
+    height: 550px;
+    margin: 80px 160px;
+}
+
+.donate-header-title{
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.donate-desc{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+}
+
+.donation-amount{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-amount{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.amount{
+    width: 200px;
+    height: 50px;
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 40px;
+    border-radius: 16px;
+    background-color: white;
+    text-align: center;
+    border-style: solid;
+    border-color: rgba(14, 14, 14, 0.15);
+}
+
+.donate-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 17px;
+}
+
+.donation-textBox{
+    width: 1032px;
+    height: 64px;
+    align-items: center;
+    border: none;
+    background-color: white;
+}
+
+.donate-text ::placeholder{
+    text-align: center;
+    font-family: "Fira Sans", serif;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.3);
+}
+
+.donation-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-btn{
+    width: 168px;
+    height: 56px;
+    border: none;
+    border-radius: 8px;
+    padding: 17px 34px;
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    font-family: "Fira Sans", serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+}
