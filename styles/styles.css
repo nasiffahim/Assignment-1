@@ -4,6 +4,28 @@
 
 
 
+/* shared styles */
+
+*{
+    background-color: rgba(241, 241, 243, 1);
+}
+
+.banner-bg-color{
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.card-bg-color{
+    background-color: rgba(213, 222, 240, 0.2);
+}
+
+.card-bg-color-2{
+    background-color: rgba(247, 235, 207, 1);
+}
+
+.bg-color{
+    background-color: white;
+}
+
 
 
 /* navbar styles */
@@ -46,8 +68,8 @@
     height: 500px;
     gap: 64px;
     margin: 20px 160px 80px;
-    padding: 80px 100px;
-    background-color: rgba(203, 237, 221, 1);
+    padding: 50px 100px 80px;
+    background-color: rgba(198, 228, 214, 1);
     border-radius: 24px;
 }
 
@@ -122,6 +144,7 @@
     border-radius: 16px;
     padding: 32px;
     background-color: rgba(84, 144, 245, 0.2);
+    /* background-color: rgba(84, 144, 245, 0.2); */
 }
 
 .card-box-title{
@@ -195,5 +218,78 @@
     margin-top: 48px;
 }
 
+/* main part 2 styles */
+
+#big-card{
+    width: 1350px;
+    margin: auto;
+}
 
 
+.big-card-box{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-card-box-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    gap: 32px;
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-bottom: 24px;
+}
+
+.big-card-img{
+    height: 290px;
+    width: 408px;
+    border-radius: 24px;
+}
+
+
+.big-card-header{
+    font-family: "Fira Sans", serif;
+    font-size: 32px;
+    font-weight: bold; 
+    margin-top: -5px;
+}
+
+.big-card-inside-img{
+    height: 40px;
+    width: 134px;
+    margin-top: -25px;
+}
+
+.big-card-desc{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.big-card-btn{
+    width: 139px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    padding: 13px 26px;
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    font-family: "Fira Sans", serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.big-card-box-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    gap: 32px;
+    border-radius: 24px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-bottom: 24px;
+}
