@@ -86,3 +86,114 @@
     letter-spacing: 0%;
     border: none;
 }
+
+/* main styles */
+#card{
+    width: 1350px;
+    margin: auto;
+}
+
+.card-header-title{
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: bold;  
+}
+
+.card-header-desc{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+}
+
+
+/* card styles */
+.card-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 32px 0px;
+}
+
+.card-box-1{
+    width: 500px;
+    height: 280px;
+    border-radius: 16px;
+    padding: 32px;
+    background-color: rgba(84, 144, 245, 0.2);
+}
+
+.card-box-title{
+    font-family: "Fira Sans", serif;
+    font-size: 20px;
+    font-weight: bold;  
+    margin-top: 24px;
+}
+
+.card-box-desc{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+.card-btn{
+    border: none;
+    border-radius: 8px;
+    width: 122px;
+    height: 41px;
+    padding: 10px 20px;
+    font-family: "Fira Sans", serif;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: rgb(84, 144, 245, 1);
+    margin-top: 24px;
+}
+
+.card-box-2{
+    width: 500px;
+    height: 280px;
+    border-radius: 16px;
+    padding: 32px;
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.card-btn-2{
+    border: none;
+    border-radius: 8px;
+    width: 122px;
+    height: 41px;
+    padding: 10px 20px;
+    font-family: "Fira Sans", serif;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: rgba(9, 161, 92, 1);
+    margin-top: 47px;
+}
+
+.card-box-3{
+    width: 500px;
+    height: 280px;
+    border-radius: 16px;
+    padding: 32px;
+    background-color: rgba(247, 235, 207, 1);
+}
+
+.card-btn-3{
+    border: none;
+    border-radius: 8px;
+    width: 122px;
+    height: 41px;
+    padding: 10px 20px;
+    font-family: "Fira Sans", serif;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: rgba(255, 194, 57, 1);
+    margin-top: 48px;
+}
+
+
+
