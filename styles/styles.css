@@ -33,7 +33,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 24px 160px;
+    margin: 24px 105px;
 }
 
 .nav-header{    
@@ -55,6 +55,12 @@
     font-size: 17px;
     font-weight: 600;
     color: rgba(0, 106, 80, 1);
+    cursor: pointer;
+}
+
+.nav-btn:hover{
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
 }
 
 
@@ -67,7 +73,7 @@
     max-width: 1280px;
     height: 500px;
     gap: 64px;
-    margin: 20px 160px 80px;
+    margin: 20px 105px 80px;
     padding: 50px 100px 80px;
     background-color: rgba(198, 228, 214, 1);
     border-radius: 24px;
@@ -107,6 +113,11 @@
     font-weight: 600;
     letter-spacing: 0%;
     border: none;
+    cursor: pointer;
+}
+
+.banner-btn:hover{
+    background-color: rgb(37, 169, 136);
 }
 
 /* main styles */
@@ -178,6 +189,11 @@
     font-size: 14px;
     background-color: rgb(84, 144, 245, 1);
     margin-top: 24px;
+    cursor: pointer;
+}
+
+.card-btn:hover{
+    background-color: rgb(9, 76, 199);
 }
 
 .card-box-2{
@@ -200,6 +216,11 @@
     font-size: 14px;
     background-color: rgba(9, 161, 92, 1);
     margin-top: 47px;
+    cursor: pointer;
+}
+
+.card-btn-2:hover{
+    background-color: rgb(0, 103, 57);
 }
 
 .card-box-3{
@@ -222,6 +243,11 @@
     font-size: 14px;
     background-color: rgba(255, 194, 57, 1);
     margin-top: 48px;
+    cursor: pointer;
+}
+
+.card-btn-3:hover{
+    background-color: rgb(164, 132, 58);
 }
 
 .card-description{
@@ -306,6 +332,11 @@
     font-size: 18px;
     font-weight: 500;
     margin-top: 20px;
+    cursor: pointer;
+}
+
+.big-card-btn:hover{
+    background-color: rgb(37, 169, 136);
 }
 
 .big-card-box-2{
@@ -366,6 +397,19 @@
     border: 1px groove;
     border-color: rgba(37, 37, 37, 0.15);
     color: rgba(14, 14, 14, 0.8);
+    cursor: pointer;
+}
+
+.amount:hover{
+    background-color: rgba(198, 228, 214, 1);
+}
+
+#second-amount{
+    background-color: rgba(198, 228, 214, 1);
+}
+
+#second-amount:hover{
+    background-color: rgba(241, 241, 243, 1);
 }
 
 .donate-text{
@@ -408,4 +452,77 @@
     font-size: 18px;
     font-weight: 500;
     margin-top: 20px;
+    cursor: pointer;
+}
+
+.donate-btn:hover{
+    background-color: rgb(37, 169, 136)
+}
+
+
+/* subscribe box styles */
+#subscribe-box{
+    max-width: 1380px;
+    height: 375px;
+    margin: 50px 100px;  
+    border: none;  
+    border-radius: 16px;
+    background-color: rgba(198, 228, 214, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px 10px;
+}
+
+.sub-description{
+    max-width: 622px;
+    margin: -15px 64px 24px;
+}
+
+.sub-input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-input-box > div{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.sub-input{
+    width: 600px;
+    height: 56px;
+    /* align-items: start; */
+    border: none;
+    border-radius: 8px 0px 0px 8px;
+    background-color: white;
+}
+
+.sub-btn{
+    width: 168px;
+    height: 58px;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    background-color: rgba(0, 106, 80, 1);
+    color: white;
+    font-family: "Fira Sans", serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: -4px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+.sub-btn:hover{
+    background-color: rgb(37, 169, 136)
+}
+
+.banner-bg-color ::placeholder{
+    padding-left: 40px;
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.3);
 }
