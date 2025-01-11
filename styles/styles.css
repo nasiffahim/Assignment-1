@@ -398,10 +398,12 @@
     border-color: rgba(37, 37, 37, 0.15);
     color: rgba(14, 14, 14, 0.8);
     cursor: pointer;
+    transition: width 0.5s;
 }
 
 .amount:hover{
     background-color: rgba(198, 228, 214, 1);
+    width: 220px;
 }
 
 #second-amount{
