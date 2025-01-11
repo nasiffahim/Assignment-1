@@ -160,6 +160,12 @@
     color: rgba(14, 14, 14, 0.7);
 }
 
+.card-desc-subtitle{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
+}
+
 .card-btn{
     border: none;
     border-radius: 8px;
@@ -216,6 +222,25 @@
     font-size: 14px;
     background-color: rgba(255, 194, 57, 1);
     margin-top: 48px;
+}
+
+.card-description{
+    height: 200px;
+    width: 1300px;
+    border-radius: 16px;
+    background-color: white;
+    padding: 20px 24px 30px;    
+}
+
+.card-box-desc-new{
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 64px;
+    padding-top: 25px;
 }
 
 /* main part 2 styles */
@@ -338,8 +363,9 @@
     border-radius: 16px;
     background-color: white;
     text-align: center;
-    border-style: solid;
-    border-color: rgba(14, 14, 14, 0.15);
+    border: 1px groove;
+    border-color: rgba(37, 37, 37, 0.15);
+    color: rgba(14, 14, 14, 0.8);
 }
 
 .donate-text{
