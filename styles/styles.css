@@ -95,7 +95,7 @@
 
 .banner-title-1{
     font-family: "Fira Sans", serif;
-    font-size: 50px;
+    font-size: 55px;
     line-height: auto;
     letter-spacing: 0%;
     font-weight: bold;
@@ -425,8 +425,13 @@
     width: 1032px;
     height: 64px;
     align-items: center;
-    border: none;
+    /* border: none; */
     background-color: white;
+    border-bottom: 2px groove;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    /* border-color: white; */
 }
 
 .donate-text ::placeholder{
